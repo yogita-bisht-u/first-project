@@ -1,6 +1,4 @@
 <?php
-
-
 $fname_cookie = "fname";
 $fname_cookie_value =  $_POST['fname'];
 setcookie($fname_cookie, $fname_cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day  
